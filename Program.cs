@@ -20,12 +20,9 @@ namespace code
 			Leona Heidern			
 			*/
 
-			Marco hero = new Marco();
-			hero.Name = "Marco Rossi";
-			hero.Level = 1;
-			hero.HeroType = "Major";
+			Marco hero = new Marco("Marco Rossi", 27, "Major");
 
-			System.Console.WriteLine(" ");
+			System.Console.WriteLine(hero.ToString());
 
 		}
 	}
