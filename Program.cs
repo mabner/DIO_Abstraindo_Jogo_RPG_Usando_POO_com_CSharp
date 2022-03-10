@@ -20,9 +20,11 @@ namespace code
 			Leona Heidern			
 			*/
 
-			Marco hero = new Marco("Marco Rossi", 27, "Major");
+			Hero marco = new Hero("Marco Rossi", 27, "Major");
+			Hero tarma = new Hero("Tarma Roving", 27, "Captain");
 
-			System.Console.WriteLine(hero.ToString());
+			System.Console.WriteLine(marco.ToString());
+			System.Console.WriteLine(tarma.ToString());
 
 		}
 	}

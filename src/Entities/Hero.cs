@@ -1,8 +1,8 @@
 namespace code.src.Entities
 {
-	public class Marco
+	public class Hero
 	{
-		public Marco(string Name, int Level, string HeroType)
+		public Hero(string Name, int Level, string HeroType)
 		{
 			this.Name = Name;
 			this.Level = Level;
