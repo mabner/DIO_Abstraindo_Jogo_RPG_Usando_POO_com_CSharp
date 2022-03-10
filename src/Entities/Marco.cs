@@ -14,5 +14,10 @@ namespace code.src.Entities
 		public int Level;
 
 		public string HeroType;
+
+		public override string ToString()
+		{
+			return $"{this.HeroType} {this.Name}. Level {this.Level}.";
+		}
 	}
 }
