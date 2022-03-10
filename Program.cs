@@ -1,4 +1,6 @@
-﻿namespace code
+﻿using code.src.Entities;
+
+namespace code
 {
 	class Program
 	{
@@ -17,6 +19,11 @@
 			Second Lieutenant Clark Stil
 			Leona Heidern			
 			*/
+
+			Marco hero = new Marco();
+			hero.Name = "Marco Rossi";
+			hero.Level = 1;
+			hero.HeroType = "Major";
 
 			System.Console.WriteLine(" ");
 
