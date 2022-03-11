@@ -20,7 +20,7 @@ namespace code
 			Leona Heidern			
 			*/
 
-			Hero marco = new Hero("Marco Rossi", 27, "Major");
+			Rifleman marco = new Rifleman("Marco Rossi", 27, "Major");
 			Grenadiers tarma = new Grenadiers("Tarma Roving", 27, "Captain");
 
 			// .ToString gets used by default when printing out the object

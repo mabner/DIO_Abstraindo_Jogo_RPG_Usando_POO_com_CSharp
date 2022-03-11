@@ -1,6 +1,6 @@
 namespace code.src.Entities
 {
-	public class Hero
+	public abstract class Hero
 	{
 		// Constructor
 		public Hero(string Name, int Level, string HeroType)
