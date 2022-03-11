@@ -21,14 +21,14 @@ namespace code
 			*/
 
 			Hero marco = new Hero("Marco Rossi", 27, "Major");
-			Hero tarma = new Hero("Tarma Roving", 27, "Captain");
+			Grenadiers tarma = new Grenadiers("Tarma Roving", 27, "Captain");
 
 			// .ToString gets used by default when printing out the object
 			System.Console.WriteLine(marco);
 			System.Console.WriteLine(tarma);
 			System.Console.WriteLine("---------------------------------");
-			System.Console.WriteLine(marco.Attack("machinegun"));
-			System.Console.WriteLine(tarma.Attack("hand grnade"));
+			System.Console.WriteLine(marco.Attack());
+			System.Console.WriteLine(tarma.Attack("fire"));
 
 		}
 	}

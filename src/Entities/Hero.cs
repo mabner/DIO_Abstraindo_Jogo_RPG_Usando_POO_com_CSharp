@@ -21,9 +21,9 @@ namespace code.src.Entities
 			return $"{this.HeroType} {this.Name}. Level {this.Level}.";
 		}
 
-		public virtual string Attack(string weapon)
+		public virtual string Attack()
 		{
-			return $"{this.Name} attacks using {weapon}.";
+			return $"{this.Name} attacks!.";
 		}
 	}
 }
