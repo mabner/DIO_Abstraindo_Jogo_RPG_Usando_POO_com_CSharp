@@ -15,6 +15,8 @@ namespace code.src.Entities
 		}
 
 		public string Attack(int Power)
+		// encapsulating the power of the attack inside the method
+		// outside code only needs to pass the attack number
 		{
 			if (Power < 6)
 			{
