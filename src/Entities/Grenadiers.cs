@@ -14,9 +14,16 @@ namespace code.src.Entities
 			return $"{this.Name} attacks using.";
 		}
 
-		public string Attack(string weapon)
+		public string Attack(int Power)
 		{
-			return $"{this.Name} attacks using {weapon} grenades.";
+			if (Power < 6)
+			{
+				return $"{this.Name} attacks using shrapnel granade. Caused {Power} damage.";
+			}
+			else
+			{
+				return $"{this.Name} attacks using fire grenade. Caused {Power} damage.";
+			}
 		}
 	}
 }
