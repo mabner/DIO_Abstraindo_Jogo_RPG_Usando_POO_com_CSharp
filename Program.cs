@@ -23,8 +23,12 @@ namespace code
 			Hero marco = new Hero("Marco Rossi", 27, "Major");
 			Hero tarma = new Hero("Tarma Roving", 27, "Captain");
 
-			System.Console.WriteLine(marco.ToString());
-			System.Console.WriteLine(tarma.ToString());
+			// .ToString gets used by default when printing out the object
+			System.Console.WriteLine(marco);
+			System.Console.WriteLine(tarma);
+			System.Console.WriteLine("---------------------------------");
+			System.Console.WriteLine(marco.Attack("machinegun"));
+			System.Console.WriteLine(tarma.Attack("hand grnade"));
 
 		}
 	}

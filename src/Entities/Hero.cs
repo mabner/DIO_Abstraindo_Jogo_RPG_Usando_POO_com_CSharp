@@ -2,6 +2,7 @@ namespace code.src.Entities
 {
 	public class Hero
 	{
+		// Constructor
 		public Hero(string Name, int Level, string HeroType)
 		{
 			this.Name = Name;
@@ -18,6 +19,11 @@ namespace code.src.Entities
 		public override string ToString()
 		{
 			return $"{this.HeroType} {this.Name}. Level {this.Level}.";
+		}
+
+		public virtual string Attack(string weapon)
+		{
+			return $"{this.Name} attacks using {weapon}.";
 		}
 	}
 }
