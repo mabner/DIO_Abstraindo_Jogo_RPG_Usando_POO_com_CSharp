@@ -29,6 +29,9 @@ namespace code
 			System.Console.WriteLine("---------------------------------");
 			System.Console.WriteLine(marco.Attack());
 			System.Console.WriteLine(tarma.Attack());
+			System.Console.WriteLine(marco.Attack());
+			System.Console.WriteLine(tarma.Attack(4));
+			System.Console.WriteLine(tarma.Attack(9));
 
 		}
 	}
